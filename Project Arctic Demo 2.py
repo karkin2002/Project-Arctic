@@ -15,7 +15,7 @@ window = UI(
 
 game_obj = Game("player1", (0, 0, 0), (255, 255, 255), False, False, False) # Settings up game
 
-game_obj.newMap("map1", (100, 100), ["black"]) # Creating new map
+game_obj.newMap("map3", (100, 100), ["black"]) # Creating new map
 
 game_obj.addEntity("player1", "log", (0, 0), "idle") # Creating player entity
 
