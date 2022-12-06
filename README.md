@@ -1,6 +1,6 @@
 # Project-Arctic
 
-Demo files running on a custom game engine I created.
+**Demo** files running a **custom game engine** I created using the pygame framework.
 Game Engine has funcationality for:
 - UI
 - Audio Management
