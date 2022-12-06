@@ -1,0 +1,5 @@
+{
+    "health": {"all": 100},
+    "velocity": {"all": 2, "log": 1.8},
+    "item": {"all": false, "heart": true, "coin": true}
+}

@@ -1,0 +1,23 @@
+{
+
+   "player": {
+      "idle": [6, 0.005, false],
+      "right": [4, 0.2, false],
+      "left": [4, 0.2, false],
+      "up": [4, 0.2, false],
+      "down": [4, 0.2, false]},
+
+   "log": {
+         "idle": [4, 0.1, false],
+         "right": [4, 0.2, false],
+         "left": [4, 0.2, false],
+         "up": [4, 0.2, false],
+         "down": [4, 0.2, false]},
+
+   "heart": {
+         "idle": [4, 0.15, false]},
+   
+   "coin": {
+         "idle": [4, 0.12, false]}
+   
+}

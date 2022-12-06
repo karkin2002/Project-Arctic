@@ -1,0 +1,378 @@
+{
+   "rain": {
+      "animation_name": "rain",
+      "max_particles": null,
+      "spawn": false,
+      "spawn_speed": 0.02,
+      "spawn_amount": 3,
+      "num_frames": 10,
+      "animation_speed": [
+         0.1,
+         1
+      ],
+      "random_start_frame": false,
+      "delete_animation": true,
+      "pos": [
+         [
+            -320,
+            320
+         ],
+         -200
+      ],
+      "target_pos": null,
+      "target_vel": 0.1,
+      "exp_value": 10,
+      "delete_target": false,
+      "velocity": [
+         [
+            3,
+            5
+         ],
+         [
+            15,
+            20
+         ]
+      ],
+      "change_vel": null,
+      "angle": [
+         5,
+         15
+      ],
+      "change_angle": null,
+      "inc_change_angle": null,
+      "alpha": [
+         150,
+         255
+      ],
+      "change_alpha": [
+         -8,
+         -10
+      ],
+      "inc_change_alpha": null,
+      "delete_alpha": true,
+      "relative_target": true,
+      "circular_spawn": false,
+      "radius": 30,
+      "start_degree": 0,
+      "circular_speed": 0.1,
+      "random_degree": false,
+      "timer": null,
+      "stats": {}
+   },
+   "rain_hit": {
+      "animation_name": "rain_hit",
+      "max_particles": null,
+      "spawn": false,
+      "spawn_speed": 0.02,
+      "spawn_amount": 2,
+      "num_frames": 1,
+      "animation_speed": 0.1,
+      "random_start_frame": false,
+      "delete_animation": true,
+      "pos": [
+         [
+            -320,
+            320
+         ],
+         [
+            -200,
+            200
+         ]
+      ],
+      "target_pos": null,
+      "target_vel": 0.1,
+      "exp_value": 10,
+      "delete_target": false,
+      "velocity": null,
+      "change_vel": null,
+      "angle": [
+         -10,
+         10
+      ],
+      "change_angle": null,
+      "inc_change_angle": null,
+      "alpha": [
+         100,
+         200
+      ],
+      "change_alpha": [
+         -8,
+         -10
+      ],
+      "inc_change_alpha": null,
+      "delete_alpha": true,
+      "relative_target": true,
+      "circular_spawn": false,
+      "radius": 30,
+      "start_degree": 0,
+      "circular_speed": 0.1,
+      "random_degree": false,
+      "timer": null,
+      "stats": {}
+   },
+   "stars": {
+      "animation_name": "stars",
+      "max_particles": null,
+      "spawn": false,
+      "spawn_speed": 0.001,
+      "spawn_amount": 2,
+      "num_frames": 2,
+      "animation_speed": [
+         0.07,
+         0.15
+      ],
+      "random_start_frame": true,
+      "delete_animation": false,
+      "pos": [
+         0,
+         0
+      ],
+      "target_pos": [
+         100,
+         100
+      ],
+      "target_vel": 0.1,
+      "exp_value": 10,
+      "delete_target": false,
+      "velocity": null,
+      "change_vel": [
+         0,
+         0.0005,
+         0.001
+      ],
+      "angle": 0,
+      "change_angle": null,
+      "inc_change_angle": null,
+      "alpha": -1,
+      "change_alpha": [
+         4,
+         5
+      ],
+      "inc_change_alpha": [
+         -0.01,
+         -0.02
+      ],
+      "delete_alpha": true,
+      "relative_target": true,
+      "circular_spawn": true,
+      "radius": 100,
+      "start_degree": 0,
+      "circular_speed": 0.1,
+      "random_degree": true,
+      "timer": null,
+      "stats": {}
+   },
+   "circle": {
+      "animation_name": "rain_hit",
+      "max_particles": null,
+      "spawn": false,
+      "spawn_speed": 0.01,
+      "spawn_amount": 2,
+      "num_frames": 2,
+      "animation_speed": [
+         0.01,
+         0.001
+      ],
+      "random_start_frame": true,
+      "delete_animation": false,
+      "pos": [
+         0,
+         0
+      ],
+      "target_pos": [
+         0,
+         0
+      ],
+      "relative_target": false,
+      "target_vel": 0.1,
+      "exp_value": 10,
+      "delete_target": true,
+      "velocity": null,
+      "change_vel": null,
+      "circular_spawn": true,
+      "random_degree": true,
+      "radius": 50,
+      "circular_speed": 0.1,
+      "angle": 0,
+      "change_angle": null,
+      "inc_change_angle": null,
+      "alpha": 1,
+      "change_alpha": [
+         2,
+         4
+      ],
+      "inc_change_alpha": [
+         -0.001,
+         -0.01
+      ],
+      "delete_alpha": true,
+      "timer": null,
+      "stats": {}
+   },
+   "circle3": {
+      "animation_name": "stars",
+      "max_particles": null,
+      "spawn": false,
+      "timer": null,
+      "spawn_speed": 0.02,
+      "spawn_amount": 1,
+      "num_frames": 2,
+      "animation_speed": 0.1,
+      "random_start_frame": false,
+      "delete_animation": false,
+      "pos": [
+         0,
+         0
+      ],
+      "target_pos": null,
+      "relative_target": true,
+      "target_vel": 0.1,
+      "exp_value": 10,
+      "delete_target": false,
+      "velocity": null,
+      "change_vel": null,
+      "circular_spawn": true,
+      "random_degree": false,
+      "radius": 60,
+      "circular_speed": 0.1,
+      "angle": [
+         0,
+         360
+      ],
+      "change_angle": [
+         0.5,
+         2
+      ],
+      "inc_change_angle": null,
+      "alpha": [
+         0,
+         255
+      ],
+      "change_alpha": -1,
+      "inc_change_alpha": null,
+      "delete_alpha": true,
+      "stats": {
+         "health": -1
+      }
+   },
+   "circle2": {
+      "animation_name": "stars",
+      "max_particles": null,
+      "spawn": true,
+      "timer": null,
+      "spawn_speed": 0.1,
+      "spawn_amount": 2,
+      "num_frames": 2,
+      "animation_speed": 0.1,
+      "random_start_frame": true,
+      "delete_animation": false,
+      "pos": [
+         0,
+         0
+      ],
+      "target_pos": null,
+      "relative_target": true,
+      "target_vel": 0.1,
+      "exp_value": 10,
+      "delete_target": false,
+      "velocity": null,
+      "change_vel": null,
+      "circular_spawn": true,
+      "random_degree": false,
+      "radius": 30,
+      "circular_speed": 0.1,
+      "angle": 0,
+      "change_angle": [
+         -1,
+         1
+      ],
+      "inc_change_angle": null,
+      "alpha": [
+         200,
+         255
+      ],
+      "change_alpha": [
+         -2,
+         -1
+      ],
+      "inc_change_alpha": null,
+      "delete_alpha": true,
+      "stats": {}
+   },
+   "colour": {
+      "animation_name": "colour",
+      "max_particles": null,
+      "spawn": false,
+      "timer": null,
+      "spawn_speed": 0.1,
+      "spawn_amount": 2,
+      "num_frames": 16,
+      "animation_speed": 0.1,
+      "random_start_frame": true,
+      "delete_animation": false,
+      "pos": [
+         0,
+         0
+      ],
+      "target_pos": null,
+      "relative_target": true,
+      "target_vel": 0.1,
+      "exp_value": 10,
+      "delete_target": false,
+      "velocity": null,
+      "change_vel": null,
+      "circular_spawn": true,
+      "random_degree": true,
+      "radius": 15,
+      "circular_speed": 0.1,
+      "angle": 0,
+      "change_angle": null,
+      "inc_change_angle": null,
+      "alpha": [
+         200,
+         255
+      ],
+      "change_alpha": [
+         -8,
+         -5
+      ],
+      "inc_change_alpha": null,
+      "delete_alpha": true,
+      "stats": {}
+   },
+   "smoke": {
+      "animation_name": "smoke",
+      "max_particles": null,
+      "spawn": false,
+      "timer": null,
+      "spawn_speed": 0.1,
+      "spawn_amount": 3,
+      "num_frames": 7,
+      "animation_speed": 0.2,
+      "random_start_frame": false,
+      "delete_animation": true,
+      "pos": [
+         [-10, 10],
+         [-10, 10]
+      ],
+      "target_pos": null,
+      "relative_target": true,
+      "target_vel": 0.1,
+      "exp_value": 10,
+      "delete_target": false,
+      "velocity": null,
+      "change_vel": null,
+      "circular_spawn": false,
+      "random_degree": false,
+      "radius": 30,
+      "circular_speed": 0.1,
+      "angle": 0,
+      "change_angle": null,
+      "inc_change_angle": null,
+      "alpha": 255,
+      "change_alpha": null,
+      "inc_change_alpha": null,
+      "delete_alpha": false,
+      "stats": {}
+   }
+}

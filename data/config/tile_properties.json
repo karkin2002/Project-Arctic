@@ -1,0 +1,76 @@
+{
+   "ground": {
+      "black": {},
+      "tile": {},
+      "wood1": {},
+      "wood2": {},
+      "grass (1)": {},
+      "grass (2)": {},
+      "grass (3)": {},
+      "grass (4)": {},
+      "grass1": {},
+      "grass2": {},
+      "grass3": {},
+      "grass4": {}
+   },
+   "surface": {
+      "bed (1)": {
+         "collision": true
+      },
+      "bed (2)": {
+         "collision": true
+      },
+      "bed (3)": {
+         "collision": true
+      },
+      "bed (4)": {
+         "collision": true
+      },
+      "bed (5)": {
+         "collision": true
+      },
+      "bed (6)": {
+         "collision": true
+      },
+      "bookcase (1)": {
+         "collision": true
+      },
+      "bookcase (2)": {
+         "collision": true
+      },
+      "bookcase (3)": {
+         "collision": true
+      },
+      "bookcase (4)": {
+         "collision": true
+      },
+      "bookcase (5)": {
+         "collision": true
+      },
+      "bookcase (6)": {
+         "collision": true
+      },
+      "bookcase (7)": {
+         "collision": true
+      },
+      "bookcase (8)": {
+         "collision": true
+      },
+      "bookcase (9)": {
+         "collision": true
+      },
+      "carpet (1)": {},
+      "carpet (2)": {},
+      "carpet (3)": {},
+      "carpet (4)": {},
+      "carpet (5)": {},
+      "carpet (6)": {},
+      "carpet (7)": {},
+      "carpet (8)": {},
+      "carpet (9)": {}
+   },
+   "object": {
+      "door": {}
+   },
+   "sky": {}
+}

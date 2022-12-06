@@ -1,0 +1,6 @@
+{
+   "test_decal_1": {
+      "rotate": true,
+      "alpha_range": [100, 255]
+   }
+}
