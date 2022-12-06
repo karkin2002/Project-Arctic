@@ -15,15 +15,15 @@ Game Engine has funcationality for:
 - Multithreading
 - Game state saves
 
-Requirements:
+**Requirements:**
 - Python 3.10
 - pygame 2.1.3.dev8
 
-Files to Run:
+**Files to Run:**
 - "Project Arctic Demo 1.py"
 - "Project Arctic Demo 2.py"
 
-Once running:
+**Controls:**
 - WASD to walk
 - Mouse Button
 - TAB for Admin Menu
