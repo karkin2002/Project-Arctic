@@ -31,7 +31,8 @@ def updateCamera():
             game_obj.zoom(-0.01)
 
 def setupTileMenu():
-
+    """ Creates the menu's, button's and text UI
+    """  
     window.addMenu("admin_menu", (1470, 540), (800, 980), (255, 255, 199), alpha = 255, centered = True, display=False)
     window.addText("admin_menu", "admin_menu_title", (400, 80), "Build Menu", 70, font = "example_font", colour =  (255, 135, 61))
 
@@ -129,6 +130,9 @@ def setupTileMenu():
 
 
 def moveNPC(npcTimer, pickup, mouse_dif):
+    """ Handels NPC movement
+    """  
+    
     if isTimer(npcTimer):
         game_obj.setEntityPath((randint(0, 20), randint(0, 20)), "npc1")
         npcTimer = setTimer(randint(2, 6))
@@ -157,6 +161,8 @@ def moveNPC(npcTimer, pickup, mouse_dif):
     return npcTimer, pickup, mouse_dif
 
 def menuInput(open_menu, item_selected, tool, entity_num):
+    """ Handels menu inputs
+    """  
     if not window.getDisplayMenu("tile_menu"):
         if window.isHoldMouse(0):
             if tool == "build":
@@ -220,6 +226,8 @@ def menuInput(open_menu, item_selected, tool, entity_num):
     return open_menu, item_selected, tool, entity_num
 
 def particleTriggers():
+    """ Handels particle triggers & particles
+    """  
 
     if game_obj.map_name == "map1":
         game_obj.isTrigger("door1", "player1")
@@ -271,6 +279,8 @@ def particleTriggers():
 
 
 def checkHealthPickups():
+    """ Handels picking up hearts
+    """  
 
     player_pos = game_obj.getEntity().getMapPos()
     game_obj.setFloatingTextPos("Player Health", (player_pos[0], player_pos[1] - 30))
@@ -285,6 +295,7 @@ def checkHealthPickups():
 
 
 
+## Creating UI
 window = UI(
     1270, 
     "Project Arctic Demo",
@@ -295,12 +306,13 @@ window = UI(
     visible_cursor = True,
     icon = "data/images/icon.png")
 
-window.addFontDir("data/images/UI/fonts/")
+window.addFontDir("data/images/UI/fonts/") ## Loading fonts
 
-window.addAudioPath("UI", "data/audio/UI/", 20)
-window.addCat("env")
-window.addAudioPath("env", "data/audio/background/")
+window.addAudioPath("UI", "data/audio/UI/", 20) ## Loading UI audio
+window.addCat("env") ## Creating new audio category
+window.addAudioPath("env", "data/audio/background/") ## Loading environemtal audio
 
+## Starting environmental audio
 window.play("env", "rain", 99)
 window.play("env", "thunder", 99)
 window.pause("env", "rain")
@@ -329,7 +341,7 @@ for i in range(5):
     game_obj.addEntity(f"heart{i}", "heart", (300, 88 + (i * 16)), "idle")
 
 game_obj.setZoom(3) # Settings the camera's zoom
-game_obj.setCameraPos(game_obj.getEntity().getMapPos())
+game_obj.setCameraPos(game_obj.getEntity().getMapPos()) ## Settings camera's starting position
 
 npcTimer = setTimer(5) # Setting timer used for NPC movement
 
@@ -356,6 +368,7 @@ game_obj.addFloatingText("Level Text", "Demo Map 1", (160, -40), "example_font",
 game_obj.addFloatingText("Player Health", "Health: 100", (0, 0), "example_font", (255, 255, 255), 6)
 game_obj.addFloatingText("Scream", "Ahhh!", (0, 0), "example_font", (200, 100, 100), 10, False)
 
+## Settings up narrator
 game_obj.addVoice("narrator", "male1")
 game_obj.voices.getVoice("narrator").addSentence("   ")
 game_obj.voices.getVoice("narrator").addSentence("Hello World.")
