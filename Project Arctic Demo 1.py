@@ -298,7 +298,7 @@ def checkHealthPickups():
 ## Creating UI
 window = UI(
     1270, 
-    "Project Arctic Demo",
+    "Project Arctic Demo 1",
     fullscreen = False,
     show_fps = True, 
     windows_scaling = True, 
