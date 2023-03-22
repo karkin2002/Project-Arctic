@@ -16,8 +16,8 @@ Game Engine has funcationality for:
 - Game state saves
 
 **Requirements:**
-- Python 3.10 or higher
-- pygame 2.1.3.dev8 or higher
+- Python 3.10 or above
+- pygame 2.1.3.dev8 or above
 - pathfinding
 
 **Files to Run:**
